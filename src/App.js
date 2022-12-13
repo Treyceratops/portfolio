@@ -3,17 +3,19 @@ import { Routes, Route, Link } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import AboutMe from './components/About';
 import Education from './components/Education';
-import MyWork from './components/Work';
+import Works from './components/Works';
+import Contact from './components/Contact';
 
 function App() {
 	return (
 		<div className='App'>
 			{/* <style>{'body { background-color: RGB(0, 0, 0); }'}</style> */}
 			<NavBar />
+			<Contact />
 			<Routes>
 				<Route path='/about' element={<AboutMe />} />
 				<Route path='/education' element={<Education />} />
-				<Route path='/works' element={<MyWork />} />
+				<Route path='/works' element={<Works />} />
 			</Routes>
 		</div>
 	);

@@ -1,5 +1,62 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  margin-top: 3rem;
+  border: 3px solid black;
+}
+
+span {
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: -1rem;
+}
+
+h6 {
+  opacity: 0;
+}
+
+li {
+  list-style-position: inside;
+  padding: 1rem;
+}
+
+li::marker {
+  content: '▪️';
+}
+
+.project-bullets {
+  text-align: justify;
+}
+
+button {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background: rgba(250, 250, 250, 0);
+  border: 3px solid black;
+  margin: .3rem;
+  margin-bottom: 1rem;
+  padding: .3rem;
+  transition: ease-in-out .5s;
+}
+
+button:hover {
+  transition: 1s;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+button:focus {
+  background: rgba(0, 0, 0, 1);
+  color: white;
 }
 
 .nav-bar {
@@ -8,6 +65,63 @@
   top: 0;
 }
 
-span {
-  font-weight: bold;
+.projects {
+  display: inline-grid;
+  row-gap: 1rem;
+}
+
+.project {
+  border: 3px solid black;
+}
+
+.tech-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icon {
+  width: 5rem;
+  padding: 1rem;
+}
+
+.tech-icon:hover + h6 {
+  opacity: 1;
+}
+
+.page-logo {
+  width: 10rem;
+}
+
+.side-profile {
+  width: 10rem;
+  /* border-radius: 10rem; */
+  border: 3px solid white;
+  margin-bottom: 3rem;
+}
+
+.contact {
+  height: 100%;
+  width: 20rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 5rem;
+  color: white;
+}
+
+.links {
+  display: inline-grid;
+}
+
+.main {
+  margin-left: 20rem;
+  padding: 0px 1rem;
+}
+
+.contact-icon {
+  width: 2rem;
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import Mustache from '../images/mustache-icon.jpeg';
 
 function AboutMe(props) {
 	return (
-		<div>
+		<div className='main'>
 			{/* About me: After leaving a
 				career in engineering, I decided to dive into the world of data science.
 				I recently completed a 13-week data science immersive program focused on
@@ -14,7 +15,8 @@ function AboutMe(props) {
 				my free time. Currently working on: Computer Vision Currently
 				listening to: Bambi, Hippo Campus Currently Watching: British Panel
 				Shows */}
-			<h1>About</h1>
+			{/* <h1>About</h1> */}
+			<img className='page-logo' src={Mustache} alt='About' />
 			<h3>Career</h3>
 			<p>
 				<span>Present:</span> I am a graduate of the Software Engineering
@@ -32,7 +34,8 @@ function AboutMe(props) {
 				delivers high impact within an organization that is creating value and
 				positive change.
 			</p>
-			<h3>For Fun</h3>
+			<hr />
+			<h3>Fun Stuff</h3>
 			<p>- fdfsdfdsfsdfsd</p>
 		</div>
 	);
