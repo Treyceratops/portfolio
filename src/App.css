@@ -3,17 +3,31 @@
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+li, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 a {
   color: white;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 hr {
   margin-top: 3rem;
   border: 3px solid black;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
 span {
   font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h3, h4 {
+  text-shadow: 0px 1.5px 1px #36454F;
 }
 
 h5 {
@@ -39,11 +53,13 @@ li::marker {
 
 button {
   font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
   background: rgba(250, 250, 250, 0);
   border: 3px solid black;
   margin: .3rem;
   margin-bottom: 1rem;
   padding: .3rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transition: ease-in-out .5s;
 }
 
@@ -67,7 +83,7 @@ button:focus {
 
 .projects {
   display: inline-grid;
-  row-gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .project {
@@ -78,6 +94,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tech-icon {
@@ -95,7 +112,6 @@ button:focus {
 
 .side-profile {
   width: 10rem;
-  /* border-radius: 10rem; */
   border: 3px solid white;
   margin-bottom: 3rem;
 }
@@ -111,10 +127,13 @@ button:focus {
   overflow-x: hidden;
   padding-top: 5rem;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* text-shadow: 0px 1.5px 1px #D3D3D3; */
 }
 
 .links {
   display: inline-grid;
+  text-align: left;
 }
 
 .main {
@@ -124,4 +143,20 @@ button:focus {
 
 .contact-icon {
   width: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact {
+      height: 100%;
+      width: 8rem;
+      font-size: .65rem;
+    }
+
+  .main {
+    margin-left: 8rem;
+  }
+
+  .side-profile {
+    width: 7rem;
+  }
 }
