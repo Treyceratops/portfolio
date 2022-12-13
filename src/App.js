@@ -5,6 +5,7 @@ import AboutMe from './components/About';
 import Education from './components/Education';
 import Works from './components/Works';
 import Contact from './components/Contact';
+import Welcome from './components/Welcome';
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<NavBar />
 			<Contact />
 			<Routes>
+				<Route path='/' element={<Welcome />} />
 				<Route path='/about' element={<AboutMe />} />
 				<Route path='/education' element={<Education />} />
 				<Route path='/works' element={<Works />} />

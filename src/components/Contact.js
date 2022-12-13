@@ -1,5 +1,5 @@
 import React from 'react';
-import SideProfile from '../images/SideProfilePic.jpg';
+import SideProfile from '../images/side-profile-pic.jpg';
 import Email from '../images/email-icon.png';
 import Resume from '../images/resume-icon.png';
 import LinkedIn from '../images/linkdin-icon.png';
