@@ -137,6 +137,19 @@ function Works(props) {
 			<ul>
 				<li>A web-based pet simulation game created with Django</li>
 			</ul>
+			<div className='project'>
+				<h4>Masagotchi: </h4>
+				<ul>
+					<li className='project-bullets'>
+						A web-based pet simulation game created with Django
+					</li>
+				</ul>
+				<a
+					target='_blank'
+					href='https://www.notion.so/344594c0bc1b4b3caf455bb240bf0e56?v=a0194ab598bf4e839f504f5e27ac7187'>
+					<button>Masagotchi Planning Board</button>
+				</a>
+			</div>
 		</div>
 	);
 }
