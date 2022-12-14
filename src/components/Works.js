@@ -11,7 +11,6 @@ import PythonIcon from '../images/python-icon.png';
 function Works(props) {
 	return (
 		<div className='main'>
-			{/* <h1>Works</h1> */}
 			<img className='page-logo' src={LightBulb} alt='Works' />
 			<h3>Programming Languages/Technologies</h3>
 			<div className='tech-icons'>
@@ -141,7 +140,7 @@ function Works(props) {
 				<h4>Masagotchi: </h4>
 				<ul>
 					<li className='project-bullets'>
-						A web-based pet simulation game created with Django
+						A web-based aquatic pet simulation game created with Django
 					</li>
 				</ul>
 				<a
