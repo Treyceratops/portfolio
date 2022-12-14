@@ -53,7 +53,7 @@ li::marker {
 button {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
-  background: rgba(250, 250, 250, 0);
+  background: rgba(250, 250, 250, .9);
   border: 3px solid black;
   margin: .3rem;
   margin-bottom: 1rem;
@@ -143,11 +143,46 @@ button:focus {
   width: 2rem;
 }
 
+.welcome-msg {
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 1;
+  position: relative
+}
+
+.japan {
+  font-weight: lighter;
+}
+
+.enter {
+  width: 10rem;
+  left: 30%;
+  top: 40%;
+  background: rgba(250, 250, 250, 0);
+  padding: 2rem;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.speech:before {
+  content: "";
+  position: absolute;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid white;
+  border-top: .5rem solid white;
+  border-bottom: .5rem solid transparent;
+  right: 1rem;
+  bottom: -1rem;
+}
+
 .profile-pic {
   width: 40rem;
   position: fixed;
   bottom: -10rem;
   left: 10%;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 700px) {
@@ -165,7 +200,17 @@ button:focus {
     width: 7rem;
   }
 
+  .welcome-msg {
+    margin-top: 3rem auto;
+    margin-right: 5rem auto;
+  }
+
+  .enter {
+    left: 10%;
+  }
+
   .profile-pic {
-    left: 0%;
+    left: -15%;
+    top: 35%;
   }
 }

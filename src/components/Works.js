@@ -120,6 +120,10 @@ function Works(props) {
 						<li className='project-bullets'>
 							Constructed an educational Javascript front-end application
 						</li>
+						<li className='project-bullets'>
+							Focused on edge cases and usability/visual appeal while
+							implementing animation
+						</li>
 					</ul>
 					<a
 						target='_blank'
