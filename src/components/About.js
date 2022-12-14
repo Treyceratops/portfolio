@@ -7,9 +7,9 @@ function AboutMe(props) {
 			<img className='page-logo' src={Mustache} alt='About' />
 			<h3>Career</h3>
 			<p>
-				<span>Present:</span> I am a Full-Stack Software Engineer and currently
-				practicing languages and technologies such as JavaScript, HTML, CSS,
-				MERN Stack, Python and Django.
+				<span>Present:</span> I am a Full-Stack Software Engineer/Web-Developer
+				and currently practicing languages and technologies such as JavaScript,
+				HTML, CSS, MERN Stack, Python and Django.
 			</p>
 			<p>
 				<span>Past:</span> My professional experience has been in a broad

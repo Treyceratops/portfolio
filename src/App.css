@@ -207,10 +207,12 @@ button:focus {
 
   .enter {
     left: 10%;
+    top: 50%;
   }
 
   .profile-pic {
+    width: 20rem;
     left: -15%;
-    top: 35%;
+    top: 60%;
   }
 }
