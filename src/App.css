@@ -151,6 +151,11 @@ button:focus {
   position: relative
 }
 
+.welcome-p {
+  z-index: 1;
+  position: relative
+}
+
 .japan {
   font-weight: lighter;
 }
