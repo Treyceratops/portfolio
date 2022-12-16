@@ -143,6 +143,15 @@ button:focus {
   width: 2rem;
 }
 
+.github {
+  width: 3rem;
+  margin-left: -.5rem;
+}
+
+.git-link {
+  margin-left: -.5rem;
+}
+
 .welcome-msg {
   margin-top: 3rem;
   padding-left: 2rem;
