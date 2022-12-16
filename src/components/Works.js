@@ -133,9 +133,6 @@ function Works(props) {
 			</div>
 			<hr />
 			<h3>Currently Working On</h3>
-			<ul>
-				<li>A web-based pet simulation game created with Django</li>
-			</ul>
 			<div className='project'>
 				<h4>Masagotchi: </h4>
 				<ul>
