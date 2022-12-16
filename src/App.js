@@ -10,7 +10,6 @@ import Welcome from './components/Welcome';
 function App() {
 	return (
 		<div className='App'>
-			{/* <style>{'body { background-color: RGB(0, 0, 0); }'}</style> */}
 			<NavBar />
 			<Contact />
 			<Routes>
