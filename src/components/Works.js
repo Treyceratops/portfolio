@@ -140,7 +140,7 @@ function Works(props) {
 				<h4>Masagotchi: </h4>
 				<ul>
 					<li className='project-bullets'>
-						A web-based aquatic pet simulation game created with Django
+						A web-based aquatic pet simulation game created with JavaScript
 					</li>
 				</ul>
 				<a
