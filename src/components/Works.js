@@ -12,7 +12,7 @@ function Works(props) {
 	return (
 		<div className='main'>
 			<img className='page-logo' src={LightBulb} alt='Works' />
-			<h3>Programming Languages/Technologies</h3>
+			<h3>Programming Languages & Technologies</h3>
 			<div className='tech-icons'>
 				<div>
 					<img
