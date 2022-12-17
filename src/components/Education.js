@@ -15,13 +15,21 @@ function Education(props) {
 					<ul>
 						<li>
 							Completed 18 weeks/725+ hours of intensive Full Stack Development
-							instruction Built client-side applications with responsive
-							behavior using Javascript, Python, HTML, CSS, jQuery, Bootstrap,
-							Express.js, Django, Mongoose ODM, MongoDB, React.js, Node.js
-							Developed 5 full-stack web applications in four day sprints
-							independently and collaboratively. Utilized Git for version
-							control Built RESTful APIs to store data for web-apps using
-							Express with MongoDB & MongooseJS ODM
+							instruction
+						</li>
+						<li>
+							Developed 5 full-stack web applications in four day sprints,
+							independently and collaboratively
+						</li>
+						<li>Utilized Git for version control</li>
+						<li>
+							Built client-side applications with responsive behavior using
+							Javascript, HTML, CSS, React.js, Node.js, jQuery, Bootstrap,
+							Python, Django
+						</li>
+						<li>
+							Built RESTful APIs to store data for web-apps using Express.js
+							with MongoDB & Mongoose ODM
 						</li>
 					</ul>
 				</div>
