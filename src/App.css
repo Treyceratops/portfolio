@@ -25,6 +25,11 @@ span {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+h3 {
+  color: rgb(167, 0, 0);
+  font-size: 1.5rem;
+}
+
 h3, h4 {
   text-shadow: 0px 1.5px 1px #36454F;
 }
@@ -46,8 +51,12 @@ li::marker {
   content: '▪️';
 }
 
-.project-bullets {
+.bullets {
   text-align: justify;
+}
+
+.pad {
+  padding: 1rem;
 }
 
 button {
@@ -189,6 +198,17 @@ button:focus {
   border-bottom: .5rem solid transparent;
   right: 1rem;
   bottom: -1rem;
+}
+
+.first {
+      color: rgb(167, 0, 0);
+}
+
+.big {
+  font-size: 1.5rem;
+}
+.space {
+  margin-top: 3rem;
 }
 
 .profile-pic {

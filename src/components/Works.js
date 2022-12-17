@@ -52,16 +52,35 @@ function Works(props) {
 				</div>
 			</div>
 			<hr />
+			<h3>Currently Working On</h3>
+			<div className='project'>
+				<h4>
+					<span className='first big'>M</span>asagotchi:{' '}
+				</h4>
+				<ul>
+					<li className='bullets'>
+						A web-based aquatic pet simulation game created with JavaScript
+					</li>
+				</ul>
+				<a
+					target='_blank'
+					href='https://www.notion.so/344594c0bc1b4b3caf455bb240bf0e56?v=a0194ab598bf4e839f504f5e27ac7187'>
+					<button>Masagotchi Planning Board</button>
+				</a>
+			</div>
+			<hr />
 			<h3>Projects</h3>
 			<div className='projects'>
 				<div className='project'>
-					<h4>Pochi-Japan: </h4>
+					<h4>
+						<span className='first big'>P</span>ochi-Japan:{' '}
+					</h4>
 					<ul>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Worked collaboratively to create a “travel” application with both
 							English and Japanese localizations
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Implemented user authentication and authorization with Passport.js
 						</li>
 					</ul>
@@ -70,19 +89,21 @@ function Works(props) {
 					</a>
 				</div>
 				<div className='project'>
-					<h4>Cart-Start: </h4>
+					<h4>
+						<span className='first big'>C</span>art-Start:{' '}
+					</h4>
 					<ul>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Led a team of 4 in collaboration on a full-stack web application
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Coordinated an agile development approach, incorporating Notion as
 							a planning board and progress tracker
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Created our own JSON API to perform CRUD with data
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Deployed through netlify (front-end) and heroku (back-end)to the
 							web and for maintenance
 						</li>
@@ -92,20 +113,22 @@ function Works(props) {
 					</a>
 				</div>
 				<div className='project'>
-					<h4>Marvel-Pedia: </h4>
+					<h4>
+						<span className='first big'>M</span>arvel-Pedia:{' '}
+					</h4>
 					<ul>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Created a front-end interactive react application with a design
 							focus
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Utilized a third-party API to display and organize data
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Incorporated react router to navigate data through multiple
 							components
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Used github for version control and to adequately document
 						</li>
 					</ul>
@@ -114,12 +137,14 @@ function Works(props) {
 					</a>
 				</div>
 				<div className='project'>
-					<h4>Java-Script Quiz: </h4>
+					<h4>
+						<span className='first big'>J</span>avaScript Quiz:{' '}
+					</h4>
 					<ul>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Constructed an educational Javascript front-end application
 						</li>
-						<li className='project-bullets'>
+						<li className='bullets'>
 							Focused on edge cases and usability/visual appeal while
 							implementing animation
 						</li>
@@ -130,21 +155,6 @@ function Works(props) {
 						<button>JavaScript Quiz</button>
 					</a>
 				</div>
-			</div>
-			<hr />
-			<h3>Currently Working On</h3>
-			<div className='project'>
-				<h4>Masagotchi: </h4>
-				<ul>
-					<li className='project-bullets'>
-						A web-based aquatic pet simulation game created with JavaScript
-					</li>
-				</ul>
-				<a
-					target='_blank'
-					href='https://www.notion.so/344594c0bc1b4b3caf455bb240bf0e56?v=a0194ab598bf4e839f504f5e27ac7187'>
-					<button>Masagotchi Planning Board</button>
-				</a>
 			</div>
 		</div>
 	);

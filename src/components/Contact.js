@@ -8,7 +8,10 @@ import GitHub from '../images/github-icon-black.png';
 function Contact(props) {
 	return (
 		<div className='contact'>
-			<h1>Trey Towers</h1>
+			<h1>
+				<span className='first'>T</span>rey <span className='first'>T</span>
+				owers
+			</h1>
 			<img className='side-profile' src={SideProfile} alt='profile-pic' />
 			<div className='links'>
 				<div>

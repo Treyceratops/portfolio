@@ -16,7 +16,8 @@ function Welcome(props) {
 				Hello, <br /> Bonjour, <br /> <span className='japan'>こんにちは!</span>
 			</h1>
 			<h1 className='welcome-p'>
-				My name is Trey. I am a web-developer and software engineer.
+				My name is <span className='first'>T</span>rey. I am a web-developer and
+				software engineer.
 			</h1>
 			<div>
 				<Link to='/works'>
