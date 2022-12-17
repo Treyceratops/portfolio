@@ -241,6 +241,14 @@ button:focus {
   li {
     margin-left: -3rem;
   }
+
+  .tech-icon {
+    width: 4rem;
+  }
+
+  .nav-bar {
+    width: 1rem;
+  }
 }
 
 @media only screen and (max-height: 900px) {
