@@ -54,12 +54,12 @@ function Works(props) {
 			<hr />
 			<h3>Currently Working On</h3>
 			<div className='projects'>
-				<div className='project'>
+				<div className='project pad'>
 					<h4>
 						<span className='first big'>M</span>asagotchi:{' '}
 					</h4>
 					<ul>
-						<li className='bullets'>
+						<li>
 							A web-based aquatic pet simulation game created with JavaScript
 						</li>
 					</ul>
@@ -73,16 +73,16 @@ function Works(props) {
 			<hr />
 			<h3>Projects</h3>
 			<div className='projects'>
-				<div className='project'>
+				<div className='project pad'>
 					<h4>
 						<span className='first big'>P</span>ochi-Japan:{' '}
 					</h4>
 					<ul>
-						<li className='bullets'>
+						<li>
 							Worked collaboratively to create a “travel” application with both
 							English and Japanese localizations
 						</li>
-						<li className='bullets'>
+						<li>
 							Implemented user authentication and authorization with Passport.js
 						</li>
 					</ul>
@@ -90,22 +90,20 @@ function Works(props) {
 						<button>Pochi-Japan</button>
 					</a>
 				</div>
-				<div className='project'>
+				<div className='project pad'>
 					<h4>
 						<span className='first big'>C</span>art-Start:{' '}
 					</h4>
 					<ul>
-						<li className='bullets'>
+						<li>
 							Led a team of 4 in collaboration on a full-stack web application
 						</li>
-						<li className='bullets'>
+						<li>
 							Coordinated an agile development approach, incorporating Notion as
 							a planning board and progress tracker
 						</li>
-						<li className='bullets'>
-							Created our own JSON API to perform CRUD with data
-						</li>
-						<li className='bullets'>
+						<li>Created our own JSON API to perform CRUD with data</li>
+						<li>
 							Deployed through netlify (front-end) and heroku (back-end)to the
 							web and for maintenance
 						</li>
@@ -114,39 +112,33 @@ function Works(props) {
 						<button>Cart-Start</button>
 					</a>
 				</div>
-				<div className='project'>
+				<div className='project pad'>
 					<h4>
 						<span className='first big'>M</span>arvel-Pedia:{' '}
 					</h4>
 					<ul>
-						<li className='bullets'>
+						<li>
 							Created a front-end interactive react application with a design
 							focus
 						</li>
-						<li className='bullets'>
-							Utilized a third-party API to display and organize data
-						</li>
-						<li className='bullets'>
+						<li>Utilized a third-party API to display and organize data</li>
+						<li>
 							Incorporated react router to navigate data through multiple
 							components
 						</li>
-						<li className='bullets'>
-							Used github for version control and to adequately document
-						</li>
+						<li>Used github for version control and to adequately document</li>
 					</ul>
 					<a target='_blank' href='https://marvel-pedia.netlify.app/'>
 						<button>Marvel-pedia</button>
 					</a>
 				</div>
-				<div className='project'>
+				<div className='project pad'>
 					<h4>
 						<span className='first big'>J</span>avaScript Quiz:{' '}
 					</h4>
 					<ul>
-						<li className='bullets'>
-							Constructed an educational Javascript front-end application
-						</li>
-						<li className='bullets'>
+						<li>Constructed an educational Javascript front-end application</li>
+						<li>
 							Focused on edge cases and usability/visual appeal while
 							implementing animation
 						</li>

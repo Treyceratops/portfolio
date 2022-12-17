@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -17,6 +16,7 @@ a:hover {
 
 hr {
   margin-top: 3rem;
+  margin-bottom: 3rem;
   border: 3px solid black;
 }
 
@@ -40,6 +40,7 @@ h5 {
 
 h6 {
   opacity: 0;
+  text-align: center;
 }
 
 li {
@@ -51,10 +52,6 @@ li::marker {
   content: '▪️';
 }
 
-.bullets {
-  text-align: justify;
-}
-
 .pad {
   padding: 1rem;
 }
@@ -64,9 +61,8 @@ button {
   font-weight: bold;
   background: rgba(250, 250, 250, .9);
   border: 3px solid black;
-  margin: .3rem;
-  margin-bottom: 1rem;
-  padding: .3rem;
+  margin: 1rem;
+  padding: .5rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transition: ease-in-out .5s;
 }
@@ -85,7 +81,7 @@ button:focus {
 
 .nav-bar {
   position: sticky;
-  z-index: 2;
+  z-index: 1;
   top: 0;
 }
 
@@ -94,14 +90,11 @@ button:focus {
 }
 
 .project {
-  /* display: inline-grid; */
   border: 3px solid black;
 }
 
 .tech-icons {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -136,6 +129,7 @@ button:focus {
   padding-top: 5rem;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-align: center;
 }
 
 .links {
@@ -145,7 +139,7 @@ button:focus {
 
 .main {
   margin-left: 20rem;
-  padding: 0px 1rem;
+  padding: 0 1rem;
 }
 
 .contact-icon {
@@ -163,15 +157,13 @@ button:focus {
 
 .welcome-msg {
   margin-top: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
   z-index: 1;
-  position: relative
+  text-align: center;
 }
 
 .welcome-p {
   z-index: 1;
-  position: relative
+  text-align: center;
 }
 
 .japan {
@@ -185,7 +177,7 @@ button:focus {
   background: rgba(250, 250, 250, 0);
   padding: 2rem;
   color: white;
-  position: absolute;
+  position: fixed;
   z-index: 1;
 }
 
@@ -214,6 +206,7 @@ button:focus {
   bottom: -10rem;
   left: 10%;
   overflow-x: hidden;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 700px) {
@@ -233,7 +226,6 @@ button:focus {
 
   .welcome-msg {
     margin-top: 3rem auto;
-    margin-right: 5rem auto;
   }
 
   .enter {
@@ -243,7 +235,70 @@ button:focus {
 
   .profile-pic {
     width: 20rem;
-    left: -15%;
+    top: 65%;
+  }
+
+  li {
+    margin-left: -3rem;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .welcome-msg {
+    margin-top: 3rem auto;
+    font-size: 2rem;
+  }
+
+  .welcome-p {
+    font-size: 2rem;
+  }
+
+  .enter {
     top: 60%;
+  }
+
+  .profile-pic {
+    width: 20rem;
+    left: 20%;
+    top: 58%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .welcome-msg {
+      margin-top: 1rem auto;
+      font-size: 1.2rem;
+    }
+  
+    .welcome-p {
+      font-size: 1.2rem;
+    }
+      
+  .enter {
+    top: 45%;
+  }
+
+  .profile-pic {
+    top: 38%;
+  }
+
+  .side-profile {
+    width: 6rem;
+    margin-left: .5rem;
+
+  }
+
+  .name {
+    margin-top: -2rem;
+    font-size: 2rem;
+  }
+
+  .links {
+    font-size: .8rem;
+    margin-left: .5rem;
+  }
+
+  .contact-grid {
+    display: flex;
   }
 }
