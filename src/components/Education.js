@@ -30,7 +30,7 @@ function Education(props) {
 					<h5>Paris, Fr</h5>
 					<p className='bullets'>
 						▪️ Advanced French Language Certification: reading, writing,
-						speaking skills
+						speaking proficiency
 					</p>
 				</div>
 				<div className='project pad'>
@@ -40,7 +40,7 @@ function Education(props) {
 					<h5>Las Vegas/Seattle</h5>
 					<p className='bullets'>
 						▪️ Intermediate (L300) Japanese Language Certification: reading,
-						writing, speaking skills
+						writing, speaking proficiency
 					</p>
 				</div>
 			</div>
