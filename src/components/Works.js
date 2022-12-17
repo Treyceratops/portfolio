@@ -53,20 +53,22 @@ function Works(props) {
 			</div>
 			<hr />
 			<h3>Currently Working On</h3>
-			<div className='project'>
-				<h4>
-					<span className='first big'>M</span>asagotchi:{' '}
-				</h4>
-				<ul>
-					<li className='bullets'>
-						A web-based aquatic pet simulation game created with JavaScript
-					</li>
-				</ul>
-				<a
-					target='_blank'
-					href='https://www.notion.so/344594c0bc1b4b3caf455bb240bf0e56?v=a0194ab598bf4e839f504f5e27ac7187'>
-					<button>Masagotchi Planning Board</button>
-				</a>
+			<div className='projects'>
+				<div className='project'>
+					<h4>
+						<span className='first big'>M</span>asagotchi:{' '}
+					</h4>
+					<ul>
+						<li className='bullets'>
+							A web-based aquatic pet simulation game created with JavaScript
+						</li>
+					</ul>
+					<a
+						target='_blank'
+						href='https://www.notion.so/344594c0bc1b4b3caf455bb240bf0e56?v=a0194ab598bf4e839f504f5e27ac7187'>
+						<button>Masagotchi Planning Board</button>
+					</a>
+				</div>
 			</div>
 			<hr />
 			<h3>Projects</h3>

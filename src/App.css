@@ -90,11 +90,11 @@ button:focus {
 }
 
 .projects {
-  display: inline-grid;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .project {
+  /* display: inline-grid; */
   border: 3px solid black;
 }
 
@@ -206,9 +206,6 @@ button:focus {
 
 .big {
   font-size: 1.5rem;
-}
-.space {
-  margin-top: 3rem;
 }
 
 .profile-pic {

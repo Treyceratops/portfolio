@@ -6,7 +6,7 @@ function AboutMe(props) {
 		<div className='main'>
 			<img className='page-logo' src={Mustache} alt='About' />
 			<h3>Career</h3>
-			<div className='project bullets pad'>
+			<div className='project projects bullets pad'>
 				<p>
 					<span className='time'>
 						<span className='first big'>P</span>resent:
@@ -36,7 +36,7 @@ function AboutMe(props) {
 			</div>
 			<hr />
 			<h3>Fun Stuff</h3>
-			<div className='project bullets pad'>
+			<div className='projects project bullets pad'>
 				<p>
 					When I am not focusing on engineering... I enjoy traveling, studying
 					languages, cooking, scuba diving, and playing video games.
