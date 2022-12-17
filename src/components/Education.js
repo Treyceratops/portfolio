@@ -27,6 +27,7 @@ function Education(props) {
 					<h4>
 						<span className='first big'>A</span>cadémie des Langues
 					</h4>
+					<h5>Paris, Fr</h5>
 					<p className='bullets'>
 						▪️ Advanced French Language Certification: reading, writing,
 						speaking skills
@@ -34,8 +35,9 @@ function Education(props) {
 				</div>
 				<div className='project pad'>
 					<h4>
-						<span className='first big'>L</span>as Vegas/Seattle Nihongo Gakuen
+						<span className='first big'>N</span>ihongo Gakuen
 					</h4>
+					<h5>Las Vegas/Seattle</h5>
 					<p className='bullets'>
 						▪️ Intermediate (L300) Japanese Language Certification: reading,
 						writing, speaking skills
