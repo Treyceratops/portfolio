@@ -21,7 +21,7 @@ function Welcome(props) {
 			</h1>
 			<div>
 				<Link to='/works'>
-					<button className='enter speech'>Check out some of my work!</button>
+					<button className='enter speech'>Check out more of my work!</button>
 				</Link>
 				<img className='profile-pic main' src={ProfilePic} alt='profile-pic' />
 			</div>
