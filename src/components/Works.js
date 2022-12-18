@@ -74,9 +74,7 @@ function Works(props) {
 						<span className='first big'>T</span>owers Property Renovation:{' '}
 					</h4>
 					<ul>
-						<li>
-							A website for my family's business in early development stage
-						</li>
+						<li>A family business website in an early stage of development</li>
 					</ul>
 					<a
 						target='_blank'
