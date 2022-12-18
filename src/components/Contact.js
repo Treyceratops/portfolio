@@ -18,7 +18,7 @@ function Contact(props) {
 					<div>
 						<img className='contact-icon' src={Email} alt='email' />
 						<a href='mailto:treytowers@yahoo.com' subject='HTML link'>
-							treytowers@yahoo.com
+							E-mail
 						</a>
 					</div>
 					<div>

@@ -69,6 +69,21 @@ function Works(props) {
 						<button>Masagotchi Planning Board</button>
 					</a>
 				</div>
+				<div className='project pad'>
+					<h4>
+						<span className='first big'>T</span>owers Property Renovation:{' '}
+					</h4>
+					<ul>
+						<li>
+							A website for my family's business in early development stage
+						</li>
+					</ul>
+					<a
+						target='_blank'
+						href='https://towerspropertyrenovation.netlify.app/'>
+						<button>Towers Property Renovation</button>
+					</a>
+				</div>
 			</div>
 			<hr />
 			<h3>Projects</h3>

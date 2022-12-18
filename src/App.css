@@ -111,12 +111,6 @@ button:focus {
   width: 10rem;
 }
 
-.side-profile {
-  width: 10rem;
-  border: 3px solid white;
-  margin-bottom: 3rem;
-}
-
 .contact {
   height: 100%;
   width: 20rem;
@@ -132,18 +126,24 @@ button:focus {
   text-align: center;
 }
 
-.links {
-  display: inline-grid;
-  text-align: left;
-}
-
 .main {
   margin-left: 20rem;
   padding: 0 1rem;
 }
 
+.side-profile {
+  width: 10rem;
+  border: 3px solid white;
+  margin-bottom: 3rem;
+}
+
 .contact-icon {
   width: 2rem;
+}
+
+.links {
+  text-align: left;
+  margin-left: 5rem;
 }
 
 .github {
@@ -173,8 +173,8 @@ button:focus {
 .enter {
   width: 10rem;
   left: 30%;
-  top: 40%;
-  background: rgba(250, 250, 250, 0);
+  top: 30%;
+  background: rgba(0, 0, 0, .8);
   padding: 2rem;
   color: white;
   position: fixed;
@@ -203,9 +203,8 @@ button:focus {
 .profile-pic {
   width: 40rem;
   position: fixed;
-  bottom: -10rem;
+  bottom: 0;
   left: 10%;
-  overflow-x: hidden;
   z-index: -1;
 }
 
@@ -224,6 +223,11 @@ button:focus {
     width: 7rem;
   }
 
+  .links {
+    text-align: left;
+    margin-left: .3rem;
+  }
+
   .welcome-msg {
     margin-top: 3rem auto;
   }
@@ -235,7 +239,6 @@ button:focus {
 
   .profile-pic {
     width: 20rem;
-    top: 65%;
   }
 
   li {
@@ -246,8 +249,10 @@ button:focus {
     width: 4rem;
   }
 
-  .nav-bar {
-    width: 1rem;
+  .nav-butt {
+    font-size: .8rem;
+    height: 3rem;
+    margin: .3rem;
   }
 }
 
@@ -262,13 +267,12 @@ button:focus {
   }
 
   .enter {
-    top: 60%;
+    top: 40%;
   }
 
   .profile-pic {
     width: 20rem;
     left: 20%;
-    top: 58%;
   }
 }
 
@@ -284,10 +288,6 @@ button:focus {
       
   .enter {
     top: 45%;
-  }
-
-  .profile-pic {
-    top: 38%;
   }
 
   .side-profile {
