@@ -239,6 +239,7 @@ button:focus {
 
   .profile-pic {
     width: 20rem;
+    left: -8%;
   }
 
   li {
