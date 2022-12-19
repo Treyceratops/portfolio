@@ -13,20 +13,20 @@ function Welcome(props) {
 				{'.nav-bar { display: none; }'}
 			</style>
 			<div className='welcome-text'>
-				<h1 className='welcome-msg'>
+				<h1>
 					Hello, <br /> Bonjour, <br />{' '}
 					<span className='japan'>こんにちは!</span>
 				</h1>
-				<h1 className='welcome-p'>
+				<h1>
 					My name is <span className='first'>T</span>rey. I am a web-developer
 					and software engineer.
 				</h1>
 			</div>
-			<div className='welcome-butt-img'>
+			<div>
 				<Link className='welcome-button' to='/works'>
 					<button className='enter speech'>Check out more of my work!</button>
 				</Link>
-				<img className='welcome-pic main' src={ProfilePic} alt='profile-pic' />
+				<img className='welcome-pic' src={ProfilePic} alt='profile-pic' />
 			</div>
 		</div>
 	);

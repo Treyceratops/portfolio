@@ -155,31 +155,9 @@ button:focus {
   margin-left: -.5rem;
 }
 
-/* .welcome-msg {
-  margin-top: 3rem;
-  z-index: 1;
-  text-align: center;
-}
-
-.welcome-p {
-  z-index: 1;
-  text-align: center;
-} */
-
 .japan {
   font-weight: lighter;
 }
-
-/* .enter {
-  width: 10rem;
-  left: 30%;
-  top: 30%;
-  background: rgba(0, 0, 0, .8);
-  padding: 2rem;
-  color: white;
-  position: fixed;
-  z-index: 1;
-} */
 
 .speech:before {
   content: "";
@@ -200,33 +178,14 @@ button:focus {
   font-size: 1.5rem;
 }
 
-/* .profile-pic {
-  width: 40rem;
-  position: fixed;
-  bottom: 0;
-  left: 10%;
-  z-index: -1;
-} */
-
 .enter {
   width: 10rem;
-  /* left: 30%; */
-  /* top: 30%; */
   background: rgba(0, 0, 0, .8);
   padding: 2rem;
   color: white;
   position: fixed;
   z-index: 1;
 }
-
-/* .entry {
-  bottom: 0;
-  position: fixed;
-  display: grid;
-  grid-template-rows: 0fr 0fr 0fr 0fr;
-  grid-template-columns: fit-content(100ch, 100ch, 100ch);
-  grid-gap: 2rem;
-} */
 
 .welcome-page {
   display: grid;
@@ -253,12 +212,10 @@ button:focus {
 }
 
 .welcome-pic {
-  grid-row: 2 / span 3;
-  grid-column: 2 / span 2;
+  margin-left: 20rem;
   width: 40rem;
   position: fixed;
   bottom: 0;
-  /* right: 25%; */
   z-index: -1;
 }
 
@@ -282,25 +239,6 @@ button:focus {
     margin-left: .3rem;
   }
 
-  /* .welcome-msg {
-    margin-top: 3rem auto;
-  } */
-
-  /* .enter {
-    left: 10%;
-    top: 50%;
-  } */
-
-  /* .entry {
-    position: relative;
-    margin-top: 10rem;
-  } */
-
-  /* .profile-pic {
-    width: 20rem;
-    left: -8%;
-  } */
-
   li {
     margin-left: -3rem;
   }
@@ -317,13 +255,13 @@ button:focus {
 
   .welcome-pic {
     width: 20rem;
-    /* position: fixed; */
     right: -10%;
   }
 
   .welcome-text {
     text-align: left;
     margin-top: 0;
+    font-size: .5rem;
   }
 }
 
@@ -333,10 +271,6 @@ button:focus {
       font-size: .5rem;
     }
       
-  /* .enter {
-    top: 45%;
-  } */
-
   .welcome-button {
     left: 20%;
   }
