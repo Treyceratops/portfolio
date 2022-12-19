@@ -259,7 +259,6 @@ button:focus {
   }
 
   .welcome-text {
-    text-align: left;
     margin-top: 0;
     font-size: .5rem;
   }
