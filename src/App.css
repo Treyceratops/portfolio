@@ -155,7 +155,7 @@ button:focus {
   margin-left: -.5rem;
 }
 
-.welcome-msg {
+/* .welcome-msg {
   margin-top: 3rem;
   z-index: 1;
   text-align: center;
@@ -164,7 +164,7 @@ button:focus {
 .welcome-p {
   z-index: 1;
   text-align: center;
-}
+} */
 
 .japan {
   font-weight: lighter;
@@ -232,7 +232,6 @@ button:focus {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-gap: 2rem; */
   height: 100vh;
   width: 100vw;
 }
@@ -240,25 +239,26 @@ button:focus {
 .welcome-text {
   grid-row: 1 / span 1;
   grid-column: 1 / span 4;
+  margin-top: 3rem;
+  z-index: 1;
+  text-align: center;
+  margin-left: 2rem;
 }
 
 .welcome-button {
   grid-row: 2 / span 1;
   grid-column: 1 / span 1;
-  left: 50%;
-  position: relative;
+  left: 10%;
+  position: fixed;
 }
 
 .welcome-pic {
   grid-row: 2 / span 3;
   grid-column: 2 / span 2;
-}
-
-.welcome-pic {
   width: 40rem;
   position: fixed;
   bottom: 0;
-  /* right: 10%; */
+  /* right: 25%; */
   z-index: -1;
 }
 
@@ -282,9 +282,9 @@ button:focus {
     margin-left: .3rem;
   }
 
-  .welcome-msg {
+  /* .welcome-msg {
     margin-top: 3rem auto;
-  }
+  } */
 
   /* .enter {
     left: 10%;
@@ -317,8 +317,12 @@ button:focus {
 
   .welcome-pic {
     width: 23rem;
-    position: fixed;
-    right: -20%;
+    /* position: fixed; */
+    right: -10%;
+  }
+
+  .welcome-text {
+    text-align: left;
   }
 }
 
@@ -360,6 +364,7 @@ button:focus {
   }
 
   .welcome-pic {
-    width: 20rem;
+    width: 15rem;
+    right: 10%;
   }
 }
