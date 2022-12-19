@@ -314,6 +314,12 @@ button:focus {
     height: 3rem;
     margin: .3rem;
   }
+
+  .welcome-pic {
+    width: 23rem;
+    position: fixed;
+    right: -20%;
+  }
 }
 
 @media only screen and (max-height: 600px) {
