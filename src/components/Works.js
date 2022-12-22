@@ -162,6 +162,19 @@ function Works(props) {
 						<button>JavaScript Quiz</button>
 					</a>
 				</div>
+				<div className='project pad'>
+					<h4>
+						<span className='first big'>C</span>aterpillar{' '}
+					</h4>
+					<ul>
+						<li>Constructed a Javascript front-end game using Canvas</li>
+						<li>Implemented swipe gestures for mobile</li>
+						<li>Added sound effects</li>
+					</ul>
+					<a target='_blank' href='https://retro-caterpillar.netlify.app/'>
+						<button>Caterpillar</button>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
