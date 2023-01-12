@@ -56,6 +56,22 @@ function Works(props) {
 			<div className='projects'>
 				<div className='project pad'>
 					<h4>
+						<span className='first big'>C</span>racking the Coding Interview{' '}
+					</h4>
+					<ul>
+						<li>
+							Studying "Cracking the Coding Interview" by Gayle Laakmann
+							McDowell
+						</li>
+					</ul>
+					<a
+						target='_blank'
+						href='https://www.notion.so/Algorithms-cb5591ef04b945158dcd7e9c9cccc527'>
+						<button>"Cracking the Coding Interview" Study Board</button>
+					</a>
+				</div>
+				<div className='project pad'>
+					<h4>
 						<span className='first big'>C</span>aterpillar{' '}
 					</h4>
 					<ul>
