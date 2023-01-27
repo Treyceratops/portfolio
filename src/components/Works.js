@@ -72,22 +72,6 @@ function Works(props) {
 				</div>
 				<div className='project pad'>
 					<h4>
-						<span className='first big'>C</span>aterpillar{' '}
-					</h4>
-					<ul>
-						<li>Constructing a Javascript front-end game using Canvas</li>
-						<li>Implemented swipe gestures for mobile</li>
-						<li>Added sound effects</li>
-						<li>
-							Creating an "Auto-Play" mode where computer plays game itself
-						</li>
-					</ul>
-					<a target='_blank' href='https://retro-caterpillar.netlify.app/'>
-						<button>Caterpillar</button>
-					</a>
-				</div>
-				<div className='project pad'>
-					<h4>
 						<span className='first big'>M</span>asagotchi:{' '}
 					</h4>
 					<ul>
@@ -118,6 +102,23 @@ function Works(props) {
 			<hr />
 			<h3>Projects</h3>
 			<div className='projects'>
+				<div className='project pad'>
+					<h4>
+						<span className='first big'>C</span>aterpillar{' '}
+					</h4>
+					<ul>
+						<li>Constructed a Javascript front-end game using Canvas</li>
+						<li>Implemented swipe gestures for mobile</li>
+						<li>Added sound effects</li>
+						<li>
+							Creating an AI "Auto-Play" mode where the computer plays the game
+							itself
+						</li>
+					</ul>
+					<a target='_blank' href='https://retro-caterpillar.netlify.app/'>
+						<button>Caterpillar</button>
+					</a>
+				</div>
 				<div className='project pad'>
 					<h4>
 						<span className='first big'>P</span>ochi-Japan:{' '}
