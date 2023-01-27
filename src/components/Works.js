@@ -194,6 +194,22 @@ function Works(props) {
 						<button>JavaScript Quiz</button>
 					</a>
 				</div>
+				<div className='project pad'>
+					<h4>
+						<span className='first big'>F</span>leur de Word:{' '}
+					</h4>
+					<ul>
+						<li>
+							Explored vanilla JavaScript functionality through a word guessing
+							game
+						</li>
+					</ul>
+					<a
+						target='_blank'
+						href='https://treyceratops.github.io/fleur-de-word/'>
+						<button>Fleur de Word</button>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
