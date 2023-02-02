@@ -15,6 +15,7 @@ function Welcome(props) {
 				{'.nav-bar { display: none; }'}
 			</style>
 			<div className='welcome-text'>
+				<br />
 				<TypeWriterEffect
 					textStyle={{
 						color: 'white',
