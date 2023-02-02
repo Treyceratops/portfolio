@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfilePic from '../images/profile-pic.jpg';
 import 'animate.css';
+import TypeWriterEffect from 'react-typewriter-effect';
 
 function Welcome(props) {
 	return (
@@ -14,10 +15,17 @@ function Welcome(props) {
 				{'.nav-bar { display: none; }'}
 			</style>
 			<div className='welcome-text'>
-				<h1>
-					Hello, <br /> Bonjour, <br />{' '}
-					<span className='japan'>こんにちは!</span>
-				</h1>
+				<TypeWriterEffect
+					textStyle={{
+						color: 'white',
+						fontSize: '2em',
+					}}
+					// startDelay={0}
+					cursorColor='#3F3D56'
+					multiText={['Bonjour,', 'こんにちは,', 'Hello,']}
+					multiTextDelay={2000}
+					typeSpeed={60}
+				/>
 				<h1>
 					My name is <span className='first'>T</span>rey. I am a web-developer
 					and software engineer.

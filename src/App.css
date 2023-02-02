@@ -147,10 +147,6 @@ button:hover {
   margin-left: -.5rem;
 }
 
-.japan {
-  font-weight: lighter;
-}
-
 .speech:before {
   content: "";
   position: absolute;
