@@ -7,10 +7,17 @@ import MongoIcon from '../images/mongo-icon.png';
 import GitHubIcon from '../images/github-icon.png';
 import DjangoIcon from '../images/django-icon.png';
 import PythonIcon from '../images/python-icon.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Works(props) {
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 	return (
 		<div className='main'>
+			<style>{'.works { background: black; color: white; }'}</style>
 			<img className='page-logo' src={LightBulb} alt='Works' />
 			<h3>Programming Languages & Technologies</h3>
 			<div className='tech-icons'>
@@ -54,7 +61,7 @@ function Works(props) {
 			<hr />
 			<h3>Currently Working On</h3>
 			<div className='projects'>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>C</span>racking the Coding Interview{' '}
 					</h4>
@@ -70,7 +77,7 @@ function Works(props) {
 						<button>"Cracking the Coding Interview" Study Board</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>M</span>asagotchi:{' '}
 					</h4>
@@ -85,7 +92,7 @@ function Works(props) {
 						<button>Masagotchi Planning Board</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>T</span>owers Property Renovation:{' '}
 					</h4>
@@ -102,7 +109,7 @@ function Works(props) {
 			<hr />
 			<h3>Projects</h3>
 			<div className='projects'>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>C</span>aterpillar{' '}
 					</h4>
@@ -119,7 +126,7 @@ function Works(props) {
 						<button>Caterpillar</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>P</span>ochi-Japan:{' '}
 					</h4>
@@ -136,7 +143,7 @@ function Works(props) {
 						<button>Pochi-Japan</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>C</span>art-Start:{' '}
 					</h4>
@@ -158,7 +165,7 @@ function Works(props) {
 						<button>Cart-Start</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>M</span>arvel-Pedia:{' '}
 					</h4>
@@ -178,7 +185,7 @@ function Works(props) {
 						<button>Marvel-pedia</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>J</span>avaScript Quiz:{' '}
 					</h4>
@@ -195,7 +202,7 @@ function Works(props) {
 						<button>JavaScript Quiz</button>
 					</a>
 				</div>
-				<div className='project pad'>
+				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>F</span>leur de Word:{' '}
 					</h4>

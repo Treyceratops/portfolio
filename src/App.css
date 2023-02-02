@@ -74,23 +74,15 @@ button:hover {
   color: white;
 }
 
-button:focus {
-  background: rgba(0, 0, 0, 1);
-  color: white;
-}
-
 .nav-bar {
   position: sticky;
   z-index: 1;
   top: 0;
 }
 
-.projects {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
 .project {
   border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .tech-icons {
@@ -210,6 +202,7 @@ button:focus {
   grid-column: 1 / span 1;
   left: 10%;
   position: fixed;
+  animation-delay: 1s;
 }
 
 .welcome-pic {
@@ -218,6 +211,22 @@ button:focus {
   position: fixed;
   bottom: 0;
   z-index: -1;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(66, 66, 66);
 }
 
 @media only screen and (max-width: 700px) {

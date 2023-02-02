@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfilePic from '../images/profile-pic.jpg';
+import 'animate.css';
 
 function Welcome(props) {
 	return (
@@ -23,7 +24,9 @@ function Welcome(props) {
 				</h1>
 			</div>
 			<div>
-				<Link className='welcome-button' to='/works'>
+				<Link
+					className='welcome-button animate__animated animate__flipInX'
+					to='/works'>
 					<button className='enter speech'>Check out more of my work!</button>
 				</Link>
 				<img className='welcome-pic' src={ProfilePic} alt='profile-pic' />
