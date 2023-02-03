@@ -14,6 +14,7 @@ function Contact(props) {
 			</h1>
 			<div className='contact-grid'>
 				<img className='side-profile' src={SideProfile} alt='profile-pic' />
+				<hr className='hole hole1' />
 				<div className='links'>
 					<div>
 						<img className='contact-icon' src={Email} alt='email' />
@@ -45,6 +46,7 @@ function Contact(props) {
 						</a>
 					</div>
 				</div>
+				<hr className='hole hole2' />
 			</div>
 		</div>
 	);

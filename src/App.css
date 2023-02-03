@@ -129,6 +129,29 @@ button:hover {
   margin-bottom: 3rem;
 }
 
+.hole {
+  border: 1px solid white;
+  width: 15rem;
+}
+
+/* .hole {
+  border: 1px solid white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10rem;
+  background-color: white;
+  margin-left: 1rem;
+  position: absolute;
+}
+
+.hole1 {
+  margin-top: -3rem;
+}
+
+.hole2 {
+  margin-top: 18rem;
+} */
+
 .contact-icon {
   width: 2rem;
 }
@@ -249,6 +272,10 @@ button:hover {
     width: 7rem;
   }
 
+  .hole {
+    width: 6rem;
+  }
+
   .links {
     text-align: left;
     margin-left: .3rem;
@@ -295,6 +322,7 @@ button:hover {
   .side-profile {
     width: 6rem;
     margin-left: .5rem;
+    margin-top: 1rem;
   }
 
   .name {
@@ -302,8 +330,12 @@ button:hover {
     font-size: 2rem;
   }
 
+  .hole {
+    width: 0;
+  }
+
   .links {
-    font-size: .8rem;
+    font-size: 1rem;
     margin-left: .5rem;
   }
 
