@@ -13,6 +13,7 @@ function Welcome(props) {
 				{'body { background-color: RGB(0, 0, 0); color: white; }'}
 				{'.contact { display: none; }'}
 				{'.nav-bar { display: none; }'}
+				{'.react-typewriter-text { position: absolute; }'}
 			</style>
 			<div className='welcome-text'>
 				<br />
@@ -27,7 +28,7 @@ function Welcome(props) {
 					multiTextDelay={2000}
 					typeSpeed={60}
 				/>
-				<h1>
+				<h1 className='intro'>
 					My name is <span className='first'>T</span>rey. I am a web-developer
 					and software engineer.
 				</h1>

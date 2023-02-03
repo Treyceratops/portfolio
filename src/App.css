@@ -26,7 +26,7 @@ span {
 }
 
 h3 {
-  color: rgb(167, 0, 0);
+  color: rgb(190, 0, 0);
   font-size: 1.5rem;
 }
 
@@ -159,7 +159,7 @@ button:hover {
 }
 
 .first {
-      color: rgb(167, 0, 0);
+      color: rgb(190, 0, 0);
 }
 
 .big {
@@ -184,6 +184,10 @@ button:hover {
   overflow: hidden;
 }
 
+/* .react-typewriter-text {
+  color: red;
+} */
+
 .welcome-text {
   grid-row: 1 / span 1;
   grid-column: 1 / span 4;
@@ -191,6 +195,11 @@ button:hover {
   z-index: 1;
   text-align: center;
   margin-left: 2rem;
+}
+
+.intro {
+  margin-top: 4rem;
+  text-align: left;
 }
 
 .welcome-button {
