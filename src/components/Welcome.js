@@ -24,7 +24,17 @@ function Welcome(props) {
 					}}
 					// startDelay={0}
 					cursorColor='#3F3D56'
-					multiText={['Bonjour,', 'こんにちは,', 'Hello,']}
+					multiText={[
+						'Bonjour,',
+						'こんにちは,',
+						'Hello,',
+						'Bonjour,',
+						'こんにちは,',
+						'Hello,',
+						'Bonjour,',
+						'こんにちは,',
+						'Hello,',
+					]}
 					multiTextDelay={2000}
 					typeSpeed={60}
 				/>
