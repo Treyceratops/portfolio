@@ -246,7 +246,9 @@ button:hover {
   }
 
   li {
-    margin-left: -3rem;
+    margin-left: -3.4rem;
+    padding: .3rem 0;
+    font-size: .9rem;
   }
 
   .tech-icon {

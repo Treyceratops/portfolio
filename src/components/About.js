@@ -1,21 +1,19 @@
 import React from 'react';
 import Mustache from '../images/mustache-icon.jpeg';
-// import Aos from 'aos';
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function AboutMe(props) {
-	// useEffect(() => {
-	// 	Aos.init({ duration: 2000 });
-	// }, []);
+	useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, []);
 	return (
 		<div className='main'>
 			<style>{'.about { background: black; color: white; }'}</style>
 			<img className='page-logo' src={Mustache} alt='About' />
 			<h3>Career</h3>
-			<div
-				// data-aos='fade-right'
-				className='project bullets pad'>
+			<div data-aos='fade-right' className='project bullets pad'>
 				<p>
 					<span className='time'>
 						<span className='first big'>P</span>resent:
@@ -45,9 +43,7 @@ function AboutMe(props) {
 			</div>
 			<hr />
 			<h3>Fun Stuff</h3>
-			<div
-				// data-aos='fade-right'
-				className=' project bullets pad'>
+			<div data-aos='fade-right' className=' project bullets pad'>
 				<p>
 					When I am not focusing on engineering... I enjoy traveling, studying
 					languages, cooking, scuba diving, and playing video games.
