@@ -8,10 +8,10 @@ import GitHub from '../images/github-icon-black.png';
 function Contact(props) {
 	return (
 		<div className='contact'>
-			<h1 className='name'>
+			<h2 className='name'>
 				<span className='first'>T</span>rey <span className='first'>T</span>
 				owers
-			</h1>
+			</h2>
 			<div className='contact-grid'>
 				<img className='side-profile' src={SideProfile} alt='profile-pic' />
 				<hr className='hole hole1' />

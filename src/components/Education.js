@@ -11,6 +11,7 @@ function Education(props) {
 	return (
 		<div className='main'>
 			<style>{'.education { background: black; color: white; }'}</style>
+			<h1>Education</h1>
 			<img className='page-logo' src={Graduation} alt='Education' />
 			<div className='projects'>
 				<div data-aos='fade-right' className='project pad'>

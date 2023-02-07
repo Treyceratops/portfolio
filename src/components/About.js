@@ -11,6 +11,7 @@ function AboutMe(props) {
 	return (
 		<div className='main'>
 			<style>{'.about { background: black; color: white; }'}</style>
+			<h1>About</h1>
 			<img className='page-logo' src={Mustache} alt='About' />
 			<h3>Career</h3>
 			<div data-aos='fade-right' className='project bullets pad'>

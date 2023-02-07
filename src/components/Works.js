@@ -18,10 +18,11 @@ function Works(props) {
 	return (
 		<div className='main'>
 			<style>{'.works { background: black; color: white; }'}</style>
+			<h1>Works</h1>
 			<img className='page-logo' src={LightBulb} alt='Works' />
 			<h3>Programming Languages & Technologies</h3>
 			<div className='tech-icons'>
-				<div>
+				<div className='tech-icon'>
 					<img
 						className='tech-icon'
 						src={JavaScriptIcon}
@@ -29,15 +30,15 @@ function Works(props) {
 					/>
 					<h6>HTML/CSS/JavaScript</h6>
 				</div>
-				<div>
+				<div className='tech-icon'>
 					<img className='tech-icon' src={ReactIcon} alt='React' />
 					<h6>React</h6>
 				</div>
-				<div>
+				<div className='tech-icon'>
 					<img className='tech-icon' src={ExpressIcon} alt='Express/Node.js' />
 					<h6>Express/Node.js</h6>
 				</div>
-				<div>
+				<div className='tech-icon'>
 					<img
 						className='tech-icon'
 						src={MongoIcon}
@@ -45,15 +46,15 @@ function Works(props) {
 					/>
 					<h6>MongoDB/MongooseODM</h6>
 				</div>
-				<div>
+				<div className='tech-icon'>
 					<img className='tech-icon' src={GitHubIcon} alt='Git/Github' />
 					<h6>Git/Github</h6>
 				</div>
-				<div>
+				<div className='tech-icon'>
 					<img className='tech-icon' src={DjangoIcon} alt='Django' />
 					<h6>Django</h6>
 				</div>
-				<div>
+				<div className='tech-icon'>
 					<img className='tech-icon' src={PythonIcon} alt='Python' />
 					<h6>Python</h6>
 				</div>
