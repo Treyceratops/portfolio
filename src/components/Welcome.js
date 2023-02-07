@@ -23,7 +23,7 @@ function Welcome(props) {
 						fontSize: '2em',
 					}}
 					// startDelay={0}
-					cursorColor='#3F3D56'
+					cursorColor='black'
 					multiText={[
 						'Bonjour,',
 						'こんにちは,',
