@@ -284,6 +284,10 @@ button:hover {
     margin-left: 8rem;
   }
 
+  .name {
+    font-size: 1.5rem;
+  }
+
   .side-profile {
     width: 7rem;
   }
