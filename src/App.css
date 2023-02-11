@@ -141,8 +141,22 @@ button:hover {
 
 .side-profile {
   width: 10rem;
+  height: 13rem;
   border: 3px solid white;
-  margin-bottom: 3rem;
+  overflow: hidden;
+  margin: 0 5rem;
+}
+
+.side-profile img {
+  width: 10rem;
+  height: auto;
+  transition: 2s ease-in-out;
+}
+
+.side-profile img:hover {
+  filter: saturate(1.5);
+  transform: scale(1.2);
+  margin-top: 1rem;
 }
 
 .hole {
@@ -290,6 +304,11 @@ button:hover {
 
   .side-profile {
     width: 7rem;
+    margin: 0 .3rem;
+  }
+
+  .side-profile img {
+    margin-left: -2rem;
   }
 
   .hole {
@@ -340,18 +359,17 @@ button:hover {
   }
 
   .side-profile {
-    width: 6rem;
-    margin-left: .5rem;
-    margin-top: 1rem;
+    width: 10rem;
+    margin: 0 .5rem;
   }
 
   .name {
     margin-top: -2rem;
-    font-size: 2rem;
   }
 
   .hole {
     width: 0;
+    display: none;
   }
 
   .links {
