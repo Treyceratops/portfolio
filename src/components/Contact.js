@@ -8,6 +8,7 @@ import GitHub from '../images/github-icon-black.png';
 function Contact(props) {
 	return (
 		<div className='contact'>
+			<style>{'.contact {margin: 0; height: 100%; overflow: hidden;}'}</style>
 			<h2 className='name'>
 				<span className='first'>T</span>rey <span className='first'>T</span>
 				owers
