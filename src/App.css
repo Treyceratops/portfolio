@@ -122,14 +122,14 @@ button:hover {
 .contact {
   height: 100%;
   margin: 0;
-  overflow: hidden;
   width: 20rem;
   position: fixed;
   z-index: 1;
+  overflow-x: hidden;
   top: 0;
   left: 0;
+  bottom: 0;
   background-color: black;
-  overflow-x: hidden;
   padding-top: 5rem;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
