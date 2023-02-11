@@ -121,15 +121,13 @@ button:hover {
 
 .contact {
   height: 100%;
-  /* margin: 0; */
   width: 20rem;
   position: fixed;
   z-index: 1;
-  overflow: hidden;
   top: 0;
-  bottom: 0;
   left: 0;
   background-color: black;
+  overflow-x: hidden;
   padding-top: 5rem;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -143,23 +141,8 @@ button:hover {
 
 .side-profile {
   width: 10rem;
-  height: 13rem;
   border: 3px solid white;
-  overflow: hidden;
-  margin: 0 5rem;
-  position: relative;
-}
-
-.side-profile img {
-  width: 10rem;
-  height: auto;
-  transition: 2s ease-in-out;
-}
-
-.side-profile img:hover {
-  filter: saturate(1.5);
-  transform: scale(1.2);
-  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .hole {
@@ -295,7 +278,6 @@ button:hover {
       height: 100%;
       width: 8rem;
       font-size: .65rem;
-      padding-top: 0;
     }
 
   .main {
@@ -308,11 +290,6 @@ button:hover {
 
   .side-profile {
     width: 7rem;
-    margin: 0 .3rem;
-  }
-
-  .side-profile img {
-    margin-left: -2rem;
   }
 
   .hole {
@@ -363,17 +340,18 @@ button:hover {
   }
 
   .side-profile {
-    width: 10rem;
-    margin: 0 .5rem;
+    width: 6rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
   }
 
   .name {
     margin-top: -2rem;
+    font-size: 2rem;
   }
 
   .hole {
     width: 0;
-    display: none;
   }
 
   .links {
