@@ -298,8 +298,7 @@ button:hover {
       height: 100%;
       width: 8rem;
       font-size: .65rem;
-      /* position: absolute; */
-      /* top: 0rem; */
+      padding-top: 0;
     }
 
   .main {
