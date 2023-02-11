@@ -147,7 +147,6 @@ button:hover {
   border: 3px solid white;
   overflow: hidden;
   margin: 0 5rem;
-  position: relative;
 }
 
 .side-profile img {
