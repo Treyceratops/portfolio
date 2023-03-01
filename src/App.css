@@ -141,8 +141,22 @@ button:hover {
 
 .side-profile {
   width: 10rem;
+  height: 13rem;
   border: 3px solid white;
-  margin-bottom: 3rem;
+  overflow: hidden;
+  margin: 0 5rem;
+}
+
+.side-profile img {
+  width: 10rem;
+  height: auto;
+  transition: 2s ease-in-out;
+}
+
+.side-profile img:hover {
+  filter: saturate(1.5);
+  transform: scale(1.2);
+  margin-top: 1rem;
 }
 
 .hole {
