@@ -13,9 +13,7 @@ function Contact(props) {
 				owers
 			</h2>
 			<div className='contact-grid'>
-				<div className='side-profile'>
-					<img src={SideProfile} alt='profile-pic' />
-				</div>
+				<img className='side-profile' src={SideProfile} alt='profile-pic' />
 				<hr className='hole hole1' />
 				<div className='links'>
 					<div>
