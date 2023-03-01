@@ -37,9 +37,9 @@ function AboutMe(props) {
 						<span className='first big'>F</span>uture:
 					</span>{' '}
 					I am looking to combine strong people skills with strong technical
-					skills in a software engineering role on a team that delivers high
-					impact within an organization that is creating value and positive
-					change.
+					skills in software engineering/web development roles on a team that
+					delivers high impact within an inclusive organization that is creating
+					value and positive change.
 				</p>
 			</div>
 			<hr />
@@ -54,7 +54,7 @@ function AboutMe(props) {
 					<br />
 					<span>Currently listening to:</span> Rüfüs Du Sol, ODESZA, Disclosure
 					<br />
-					<span>Currently playing:</span> God Of War: Ragnarök, Slay the Spire,
+					<span>Currently playing:</span> Octopath Travelers 2, Slay the Spire,
 					Hades
 				</p>
 			</div>

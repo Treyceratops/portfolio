@@ -115,7 +115,10 @@ function Works(props) {
 						<span className='first big'>S</span>asso Inc.
 					</h4>
 					<ul>
-						<li>A website for a property renovation business</li>
+						<li>A general contractor/licensed electrician business website</li>
+						<li>
+							Responsively built with React.js and deployed through Netlify
+						</li>
 					</ul>
 					<a target='_blank' href='https://sassoinc.com/'>
 						<button>Sasso Inc.</button>
