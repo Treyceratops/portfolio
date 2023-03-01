@@ -78,7 +78,7 @@ function Works(props) {
 						<button>"Cracking the Coding Interview" Study Board</button>
 					</a>
 				</div>
-				<div data-aos='fade-right' className='project pad'>
+				{/* <div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>M</span>asagotchi:{' '}
 					</h4>
@@ -92,7 +92,7 @@ function Works(props) {
 						href='https://www.notion.so/344594c0bc1b4b3caf455bb240bf0e56?v=a0194ab598bf4e839f504f5e27ac7187'>
 						<button>Masagotchi Planning Board</button>
 					</a>
-				</div>
+				</div> */}
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>T</span>owers Property Renovation:{' '}
@@ -110,6 +110,17 @@ function Works(props) {
 			<hr />
 			<h3>Projects</h3>
 			<div className='projects'>
+				<div data-aos='fade-right' className='project pad'>
+					<h4>
+						<span className='first big'>S</span>asso Inc.
+					</h4>
+					<ul>
+						<li>A website for a property renovation business</li>
+					</ul>
+					<a target='_blank' href='https://sassoinc.com/'>
+						<button>Sasso Inc.</button>
+					</a>
+				</div>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>C</span>aterpillar{' '}
