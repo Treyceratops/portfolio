@@ -9,6 +9,7 @@ import DjangoIcon from '../images/django-icon.png';
 import PythonIcon from '../images/python-icon.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import 'animate.css';
 import { useEffect } from 'react';
 
 function Works(props) {
@@ -16,7 +17,7 @@ function Works(props) {
 		Aos.init({ duration: 2000 });
 	}, []);
 	return (
-		<div className='main'>
+		<div className='main animate__animated animate__fadeIn'>
 			<style>{'.works { background: black; color: white; }'}</style>
 			<h1>Works</h1>
 			<img className='page-logo' src={LightBulb} alt='Works' />
