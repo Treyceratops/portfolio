@@ -137,6 +137,7 @@ button:hover {
 .main {
   margin-left: 20rem;
   padding: 0 1rem;
+  animation-duration: 12s;
 }
 
 .side-profile {

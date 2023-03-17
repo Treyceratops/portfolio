@@ -2,6 +2,7 @@ import React from 'react';
 import Graduation from '../images/education-icon.jpeg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import 'animate.css';
 import { useEffect } from 'react';
 
 function Education(props) {
@@ -9,7 +10,7 @@ function Education(props) {
 		Aos.init({ duration: 2000 });
 	}, []);
 	return (
-		<div className='main'>
+		<div className='main animate__animated animate__fadeIn'>
 			<style>{'.education { background: black; color: white; }'}</style>
 			<h1>Education</h1>
 			<img className='page-logo' src={Graduation} alt='Education' />
