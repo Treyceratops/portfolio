@@ -94,23 +94,24 @@ function Works(props) {
 						<button>Masagotchi Planning Board</button>
 					</a>
 				</div> */}
+			</div>
+			<hr />
+			<h3>Projects</h3>
+			<div className='projects'>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>T</span>owers Property Renovation:{' '}
 					</h4>
 					<ul>
-						<li>A family business website in an early stage of development</li>
+						<li>A family general contractor business website</li>
+						<li>
+							Responsively built with React.js and deployed through Netlify
+						</li>
 					</ul>
-					<a
-						target='_blank'
-						href='https://towerspropertyrenovation.netlify.app/'>
+					<a target='_blank' href='http://towerspropertyrenovation.com/'>
 						<button>Towers Property Renovation</button>
 					</a>
 				</div>
-			</div>
-			<hr />
-			<h3>Projects</h3>
-			<div className='projects'>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
 						<span className='first big'>S</span>asso Inc.
