@@ -291,7 +291,8 @@ button:hover {
   .contact {
       height: 100%;
       width: 8rem;
-      font-size: .65rem;
+      /* font-size: .65rem; */
+      font-size: 1.5vw;
     }
 
   .main {
@@ -299,7 +300,8 @@ button:hover {
   }
 
   .name {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 4.5vw;
   }
 
   .side-profile {
@@ -320,7 +322,8 @@ button:hover {
   li {
     margin-left: -2.5rem;
     padding: .3rem 0;
-    font-size: .9rem;
+    /* font-size: .9rem; */
+    font-size: 1.5vw;
   }
 
   .tech-icon {
@@ -328,7 +331,8 @@ button:hover {
   }
 
   .nav-butt {
-    font-size: .8rem;
+    /* font-size: .8rem; */
+    font-size: 1.5vw;
     height: 3rem;
     margin: .3rem;
   }
@@ -340,14 +344,16 @@ button:hover {
 
   .welcome-text {
     margin-top: 0;
-    font-size: .5rem;
+    /* font-size: .5rem; */
+    font-size: 1.5vw;
   }
 }
 
 @media only screen and (max-height: 600px) {
   .welcome-text {
       margin-top: 0;
-      font-size: .5rem;
+      /* font-size: .5rem; */
+      font-size: 1vw;
       text-align: left;
     }
       
@@ -363,7 +369,8 @@ button:hover {
 
   .name {
     margin-top: -2rem;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 2vw;
   }
 
   .hole {
@@ -371,7 +378,8 @@ button:hover {
   }
 
   .links {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 1.3vw;
     margin-left: .5rem;
   }
 
