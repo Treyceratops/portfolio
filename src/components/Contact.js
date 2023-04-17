@@ -1,5 +1,6 @@
 import React from 'react';
-import SideProfile from '../images/side-profile-pic.jpg';
+import SideProfile from '../images/side-profile-watercolor.jpg';
+import SideProfileWaterColor from '../images/side-profile-pic.jpg';
 import Email from '../images/email-icon.png';
 import Resume from '../images/resume-icon.png';
 import LinkedIn from '../images/linkdin-icon.png';
@@ -13,6 +14,11 @@ function Contact(props) {
 				owers
 			</h2>
 			<div className='contact-grid'>
+				<img
+					className='side-profile-watercolor'
+					src={SideProfileWaterColor}
+					alt='profile-pic'
+				/>
 				<img className='side-profile' src={SideProfile} alt='profile-pic' />
 				<hr className='hole hole1' />
 				<div className='links'>
