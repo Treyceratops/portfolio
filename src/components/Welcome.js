@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ProfilePic from '../images/profile-pic.jpg';
+import ProfilePicWaterColor from '../images/profile-watercolor.jpg';
 import 'animate.css';
 import TypeWriterEffect from 'react-typewriter-effect';
 
@@ -50,6 +51,11 @@ function Welcome(props) {
 					<button className='enter speech'>Check out more of my work!</button>
 				</Link>
 				<img className='welcome-pic' src={ProfilePic} alt='profile-pic' />
+				<img
+					className='welcome-pic-watercolor'
+					src={ProfilePicWaterColor}
+					alt='profile-pic-watercolor'
+				/>
 			</div>
 		</div>
 	);

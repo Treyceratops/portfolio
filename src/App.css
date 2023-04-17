@@ -101,6 +101,10 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.project:nth-child(even) {
+  background-color: rgb(147, 147, 147);
+}
+
 .tech-icons {
   display: flex;
   flex-wrap: wrap;
@@ -140,25 +144,34 @@ button:hover {
   animation-duration: 12s;
 }
 
-.side-profile {
+.side-profile-watercolor {
+  position: absolute;
+  transition: ease-in-out 2s;
+}
+
+.side-profile, .side-profile-watercolor {
   width: 10rem;
   height: 13rem;
   border: 3px solid white;
-  overflow: hidden;
   margin: 0 5rem;
 }
 
-.side-profile img {
+.side-profile-watercolor:hover {
+  opacity: 0;
+  transition: 2s;
+}
+
+/* .side-profile img {
   width: 10rem;
   height: auto;
   transition: 2s ease-in-out;
-}
+} */
 
-.side-profile img:hover {
+/* .side-profile img:hover {
   filter: saturate(1.5);
   transform: scale(1.2);
   margin-top: 1rem;
-}
+} */
 
 .hole {
   border: 1px solid white;
@@ -237,10 +250,6 @@ button:hover {
   overflow: hidden;
 }
 
-/* .react-typewriter-text {
-  color: red;
-} */
-
 .welcome-text {
   grid-row: 1 / span 1;
   grid-column: 1 / span 4;
@@ -263,12 +272,27 @@ button:hover {
   animation-delay: 1s;
 }
 
+.welcome-pic-watercolor {
+  margin-left: 25rem;
+  width: 30rem;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: ease-in-out 2s;
+}
+
 .welcome-pic {
   margin-left: 20rem;
   width: 40rem;
   position: fixed;
   bottom: 0;
   z-index: -1;
+}
+
+.welcome-button:hover ~ .welcome-pic-watercolor {
+  opacity: 1;
+  transition: 2s;
 }
 
 ::-webkit-scrollbar {
@@ -288,6 +312,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 700px) {
+  p {
+    font-size: 2.5vw;
+  }
+
   .contact {
       height: 100%;
       width: 8rem;
@@ -302,10 +330,23 @@ button:hover {
     font-size: 4.5vw;
   }
 
-  .side-profile {
+  .side-profile-watercolor {
     width: 7rem;
     transform: translateX(-4.7rem);
     height: auto;
+  }
+
+  .side-profile {
+    width: 7rem;
+    transform: translateX(-4.7rem);
+    height: 9.3rem;
+    transition: ease-in-out 2s;
+    opacity: 0;
+  }
+
+.side-profile:hover {
+    opacity: 1;
+    transition: 2s;
   }
 
   .hole {
@@ -320,7 +361,7 @@ button:hover {
   li {
     margin-left: -2.5rem;
     padding: .3rem 0;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   .tech-icon {
@@ -336,6 +377,11 @@ button:hover {
   .welcome-pic {
     width: 20rem;
     right: -10%;
+  }
+
+  .welcome-pic-watercolor {
+    width: 15.2rem;
+    right: -3%;
   }
 
   .welcome-text {
@@ -355,9 +401,15 @@ button:hover {
     left: 20%;
   }
 
-  .side-profile {
+  .side-profile-watercolor {
     width: 8rem;
     height: auto;
+    margin: 0 0 0 .6rem;
+  }
+  
+  .side-profile {
+    width: 8rem;
+    height: 10.6rem;
     margin: 0 0 0 .6rem;
   }
 
@@ -382,5 +434,10 @@ button:hover {
   .welcome-pic {
     width: 15rem;
     right: 10%;
+  }
+
+  .welcome-pic-watercolor {
+    width: 11.2rem;
+    right: 13.5%;
   }
 }
