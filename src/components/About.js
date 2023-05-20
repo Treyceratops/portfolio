@@ -51,12 +51,12 @@ function AboutMe(props) {
 					languages, cooking, scuba diving, and playing video games.
 				</p>
 				<p>
-					<span>Currently watching:</span> The Last of Us
+					<span>Currently watching:</span>Titans
 					<br />
 					<span>Currently listening to:</span> Rüfüs Du Sol, ODESZA, Disclosure
 					<br />
-					<span>Currently playing:</span> Octopath Travelers 2, Slay the Spire,
-					Hades
+					<span>Currently playing:</span> Zelda Tears of the Kingdom, Slay the
+					Spire, Hades
 				</p>
 			</div>
 		</div>
