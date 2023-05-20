@@ -100,10 +100,29 @@ function Works(props) {
 			<div className='projects'>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
-						<span className='first big'>T</span>owers Property Renovation:{' '}
+						<span className='first big'>T</span>he Excelerate Foundation{' '}
 					</h4>
 					<ul>
-						<li>A family general contractor business website</li>
+						<li>
+							The Excelerate Foundation supports nonprofit organizations that
+							motivate positive social change and community development at the
+							local level
+						</li>
+						<li>Total FTP site re-design and updates to modernize</li>
+						<li>
+							Sorting capabilities to display Exelerate's grantees by category
+						</li>
+					</ul>
+					<a target='_blank' href='http://excelerate-foundation.org/'>
+						<button>The Excelerate Foundation</button>
+					</a>
+				</div>
+				<div data-aos='fade-right' className='project pad'>
+					<h4>
+						<span className='first big'>T</span>owers Property Renovation{' '}
+					</h4>
+					<ul>
+						<li>A family owned general contractor business website</li>
 						<li>
 							Responsively built with React.js and deployed through Netlify
 						</li>
@@ -145,7 +164,7 @@ function Works(props) {
 				</div>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
-						<span className='first big'>P</span>ochi-Japan:{' '}
+						<span className='first big'>P</span>ochi-Japan{' '}
 					</h4>
 					<ul>
 						<li>
@@ -162,7 +181,7 @@ function Works(props) {
 				</div>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
-						<span className='first big'>C</span>art-Start:{' '}
+						<span className='first big'>C</span>art-Start{' '}
 					</h4>
 					<ul>
 						<li>
@@ -184,7 +203,7 @@ function Works(props) {
 				</div>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
-						<span className='first big'>M</span>arvel-Pedia:{' '}
+						<span className='first big'>M</span>arvel-Pedia{' '}
 					</h4>
 					<ul>
 						<li>
@@ -204,7 +223,7 @@ function Works(props) {
 				</div>
 				<div data-aos='fade-right' className='project pad'>
 					<h4>
-						<span className='first big'>J</span>avaScript Quiz:{' '}
+						<span className='first big'>J</span>avaScript Quiz{' '}
 					</h4>
 					<ul>
 						<li>Constructed an educational Javascript front-end application</li>
